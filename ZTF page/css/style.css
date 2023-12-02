@@ -1,0 +1,102 @@
+body {
+    /* Fondo con colores galácticos */
+    background: linear-gradient(to top, #001f4d, #0c7b93, #00ccff);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff; /* Color del texto */
+}
+
+/* Estilos para el header */
+#header {
+    background: linear-gradient(to bottom, #001f4d, #0c7b93, #00ccff);
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+#header h1 {
+    color: #fff;
+    font-size: 24px; /* Tamaño del texto ajustado */
+}
+
+#header img {
+    width: 52px; /* Tamaño del icono reducido */
+    margin-left: fixed;
+    position: inherit;
+}
+
+#header nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+#header nav ul li {
+    margin-right: 10px; /* Menos espacio entre los elementos */
+
+}
+
+#header nav ul li a {
+    text-decoration:wavy;
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: 12x; /* Tamaño del texto ajustado */
+}
+
+.menu{
+    text-align: center;
+}
+
+
+/* Estilos para el middlepage */
+#middlepage {
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde del middlepage */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #007e006c; /* Color de fondo */
+    margin: 20px auto; /* Espaciado alrededor */
+    max-width: 1200px; /* Ancho máximo */
+}
+
+#big-container {
+    /* Estilos para el contenido central */
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+#image-container {
+    /* Estilos para imágenes */
+    /* Puedes añadir estilos adicionales para las imágenes */
+}
+
+#video-container {
+    /* Estilos para los videos */
+    text-align: center; /* Centrar los videos */
+}
+
+/* Estilos para el footer */
+#footer {
+    background: linear-gradient(to bottom, #001f4d, #001f4d, #0c7b93); /* Color de fondo del footer */
+    padding: 1px;
+    text-align: justify;
+    font-size: 10px;
+    margin-top: 20px; /* Espacio desde el middlepage */
+}
+
+/* Estilos generales */
+#header,
+#middlepage,
+#footer {
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilos específicos para párrafos y encabezados h4 */
+footer p {
+    text-align: justify; /* Justificar párrafos y h4 */
+    text-justify: inter-word; /* Estilo de justificación */
+    margin: auto; /* Centrar los párrafos y h4 */
+}
